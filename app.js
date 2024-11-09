@@ -47,7 +47,7 @@ app.use(helmet());
 // CORS Middleware
 app.use(
   cors({
-    origin: process.env.FRONTEND_URL || 'http://localhost:5173',
+    origin: process.env.FRONTEND_URL || 'https://one0x-website-o0v7.onrender.com',
     credentials: true,
   })
 );
